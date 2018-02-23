@@ -1,0 +1,23 @@
+Source: unity8-coreapps-meta
+Section: metapackages
+Priority: optional
+#FIXME: Simon should be listed as an Uploader but UBPorts should be th
+Maintainer: Simon Quigley <tsimonq2@ubuntu.com>
+Build-Depends: debhelper (>= 9), germinate (>= 1.18)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/ubports/unity8-coreapps-meta.git
+Vcs-Browser: https://github.com/ubports/unity8-coreapps-meta
+
+Package: unity8-coreapps
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Unity 8 Core Apps
+ This metapackage exists to pull in all of the Unity 8 Core Apps.
+
+Package: ubuntu-touch-coreapps
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu Touch Core Apps
+ This metapackage exists to pull in all of the Ubuntu Touch Core Apps.
