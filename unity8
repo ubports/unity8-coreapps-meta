@@ -1,0 +1,15 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Unity 8 Core Apps Installation
+Task-Extended-Description: This task provides a Unity 8 environment.
+Task-Key: unity8-coreapps
+Task-Name: unity8-coreapps
+Task-Metapackage: unity8-coreapps
+
+ * ubuntu-calculator-app
+ * ubuntu-filemanager-app
+ * gallery-app
+ * mediaplayer-app
+ * webbrowser-app
+ * ubuntu-terminal-app
+ * music-app
